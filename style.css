@@ -1,72 +1,82 @@
-.logo {
-    float: left;
-}
-.title{
-    float: left;
-    margin: 0;
-    padding: 5px;
-    color: rgb(25, 69, 28);
-    text-decoration: none;
-    font-size: 24px;
-}
-  .shapkaverh {
-    float: right;
-    word-spacing:40px;
-	font-size:30px;
-  }
-  .shapkaverh ul {
-    margin: 30;
-    padding: 0;
-    list-style: none;
-  }
-  .shapkaverh li {
-    display: inline-block;
-    margin-left: 10px; 
-}
-
-  .site:after { 
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .site {
-    width: 100%;
-    max-width: 1024px;
-    padding: 15px;
-    margin: 0 auto;
-  }
-  .shapkaverh a{
-    line-height: 50px;
-    text-decoration: none;
-    color: black;
-  }
-  .Spisok{
-    width:50%; 
-  }
-  .site div {
-    float:left;
-    max-width: 960px;
-  }
-  table {
-    border: 1px solid rgb(5, 5, 5);
-    border-collapse: collapse;
-    width: 100%;
- }
- td {
-    border: 1px solid rgb(16, 16, 15);
- }
-tbody tr:nth-child(odd)
-{
-    background: #dffc02;
-}
-tbody tr:nth-child(even)
-{
-    background: #b9b9c0;
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
 }
 footer{
-  padding: 10px;
-  background-color: #ecfb17;
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  margin: -10px;
+  background-color: aquamarine;
   color: #000;
-  word-spacing:30px;
-	font-size:20px;
+}
+.image{
+  border-radius: 50%;
+  margin: 3px;
+  margin-left: 10px;
+}
+
+.change1{
+  background-color:rgb(205, 197, 197);
+}
+.change {
+background-color:rgb(205, 197, 197) ;
+}
+th{
+  background-color: rgb(205, 197, 197);
+}
+table{
+  background-color: aquamarine;
+}
+.tablica{
+  margin-left: 20px;
+}
+.container{
+  background-color: aquamarine;
+}
+.navbar { 
+width: 100%;
+height: 70px;
+box-shadow: 0 4px 10px rgb(213, 206, 206);
+color: aqua;
+}
+.navbar .container {
+  height: inherit;
+  display: flex;
+  /*justify-content: space-between;*/
+}
+.navbar-menu {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+.navbar-menu li{
+  display: inline-block;
+  
+}
+.navbar-menu li a{
+  display: inline-block;
+  color: black;
+  opacity: 0.6;
+  text-decoration: none;
+  padding:10px;
+  justify-content: center;
+}
+.navbar-wrap {
+  display: flex; 
+  flex-flow: row nowrap;
+  margin-left: auto;
+  margin-right: 10px;
+}
+.navbar-brand {
+  margin: 20px;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  color: black;
+  margin-left: 7px;
 }
